@@ -11,12 +11,14 @@ class Car():
         self.mileage = mileage
         self.price = price
         self.color = color
+
     def description(self):
-        print(f"The car is made by {self.make} ")
-        print(f"The model is a {self.model}")
-        print(f"The Mileage of the car is {self.mileage}")
-        print(f"The price of the car is {self.price}")
-        print(f"The color of the car is {self.color}")
+            print(f"The car is made by {self.make} ")
+            print(f"The model is a {self.model}")
+            print(f"The Mileage of the car is {self.mileage}")
+            print(f"The price of the car is {self.price}")
+            print(f"The color of the car is {self.color}")
+
 
 
 
